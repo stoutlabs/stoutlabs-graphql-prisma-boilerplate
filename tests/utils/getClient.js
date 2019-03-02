@@ -1,7 +1,12 @@
-// because apollo-boost doesn't support subscriptions, I had to manually re-create it
-// with apollo stuff to make them work... boo.
-
-// I added the following via yarn: apollo-client@2.4.2 apollo-cache-inmemory@1.2.10 apollo-link-http@1.5.5 apollo-link-error@1.1.1 apollo-link@1.2.3 apollo-link-ws@1.0.9 apollo-utilities@1.0.21 subscriptions-transport-ws@0.9.15 @babel/polyfill@7.0.0 graphql@0.13.2
+/* ----------------------------------------------------------------------------- 
+* Because apollo-boost doesn't support subscriptions, we have to manually 
+* re-create it with Apollo's 'parts' to make them work... yuck.
+* 
+* Added the following deps via yarn: 
+* apollo-client apollo-cache-inmemory apollo-link-http apollo-link-error 
+* apollo-link apollo-link-ws apollo-utilities 
+* subscriptions-transport-ws @babel/polyfill graphql
+----------------------------------------------------------------------------- */
 
 import '@babel/polyfill/noConflict'
 import { ApolloClient } from 'apollo-client'
