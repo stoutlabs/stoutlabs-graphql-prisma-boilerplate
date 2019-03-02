@@ -7,6 +7,7 @@ This is a project boilerplate for creating a GraphQL api.
 ### Features
 - A Docker-based Postgres and Prisma setup. No need to install either locally, just run the docker-compose file located in the ```/prisma``` folder.
 - Prisma's built-in magic.
+- Apollo client front end
 - User authentication via JWTs (JSON Web Tokens)
 
 ### Requirements
