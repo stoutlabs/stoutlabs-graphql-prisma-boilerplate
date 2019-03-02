@@ -50,8 +50,6 @@ type User {
   name: String!
   email: String
   password: String!
-  posts: [Post!]!
-  comments: [Comment!]!
   createdAt: String!
   updatedAt: String!
 }
