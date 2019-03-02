@@ -2,7 +2,7 @@
 
 
 ## What Is This?
-This is a project boilerplate for creating a GraphQL api.
+This is a project boilerplate for creating a GraphQL api, with Prisma + PostgreSQL on the backend and Node.js + Apollo (client) on the frontend.
 
 ### Features
 - A Docker-based Postgres and Prisma setup. No need to install either locally, just run the docker-compose file located in the ```/prisma``` folder.
