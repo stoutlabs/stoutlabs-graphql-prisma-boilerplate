@@ -21,7 +21,7 @@ This is a project boilerplate for creating a GraphQL api, with Prisma + PostgreS
 
 2. Create a local environment vars file at ```/config/dev.env```, and insert the following lines: 
     ```
-    PRISMA_ENDPOINT=http://0.0.0.0:4466/your-service-name
+    PRISMA_ENDPOINT=http://0.0.0.0:4466/your-service-name/dev
     PRISMA_SECRET=someSecretPhraseOfYourChoice
     JWT_SECRET=anotherBigSecretHere
     ```
@@ -33,7 +33,7 @@ This is a project boilerplate for creating a GraphQL api, with Prisma + PostgreS
 
 2. While still in this directory, run ```prisma deploy -e ../config/dev.env``` This will deploy the service to the local Prisma server you just started above, using the local configuration settings in ```/config/dev.env```. (For deploying the testing server, you'll also want to run the same command but with the ```test.env``` file.)
 
-2. Back out into the root directory, and run ```yarn get-schema``` to generate full schema data. (I think this is already included in the repo, but you will need to run this again if you change your schema.)
+2. Back out into the root directory, and run ```yarn get-schema``` to generate full schema data. (I think this is already included in the repo, but you will need to run this again if you change your datamodel/schema.)
 
 2. Now, run ```yarn dev``` to start your Node.js server, and start developing and/or tinkering - with basic live reloading included via Nodemon. (You can also run tests with Jest using ```yarn test```)
 
