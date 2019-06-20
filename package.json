@@ -15,15 +15,15 @@
     "globalTeardown": "./tests/jest/globalTeardown.js"
   },
   "dependencies": {
-    "@babel/polyfill": "7.2.5",
+    "@babel/polyfill": "^7.2.5",
     "apollo-boost": "^0.3.1",
     "apollo-cache-inmemory": "^1.5.1",
-    "apollo-client": "2.5.1",
-    "apollo-link": "1.2.8",
-    "apollo-link-error": "1.1.7",
-    "apollo-link-http": "1.5.11",
-    "apollo-link-ws": "1.0.14",
-    "apollo-utilities": "1.2.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.8",
+    "apollo-link-error": "^1.1.7",
+    "apollo-link-http": "^1.5.11",
+    "apollo-link-ws": "^1.0.14",
+    "apollo-utilities": "^1.2.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
@@ -36,7 +36,7 @@
     "graphql-yoga": "^1.17.4",
     "jsonwebtoken": "^8.5.0",
     "prisma-binding": "^2.3.3",
-    "subscriptions-transport-ws": "0.9.15",
+    "subscriptions-transport-ws": "^0.9.15",
     "ws": "^6.1.4"
   },
   "devDependencies": {
