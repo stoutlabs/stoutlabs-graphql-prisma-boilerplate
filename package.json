@@ -44,6 +44,7 @@
     "nodemon": "^1.18.10"
   },
   "resolutions": {
-    "graphql": "^14.1.1"
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.13"
   }
 }
