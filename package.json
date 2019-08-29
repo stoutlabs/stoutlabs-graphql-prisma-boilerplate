@@ -45,6 +45,8 @@
   },
   "resolutions": {
     "graphql": "^14.1.1",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.13",
+    "set-value": "^2.0.1",
+    "open": "^6.0.0"
   }
 }
